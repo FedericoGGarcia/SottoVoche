@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Porfolio</title>
+</head>
+
+<body class="fondo-inicio">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
+            <div class="container-fluid d-flex ">
+                <a class="navbar-brand logo" href="index.html">Sotto<span>Voche</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end menu" id="navbarNavAltMarkup">
+                    <div class="navbar-nav lista">
+                        <a class="nav-link active " href="index.html">Home</a>
+                        <a class="nav-link active  " aria-current="page" href="inicio.html">Nosotros</a>
+                        <a class="nav-link  active " href="curriculum.html">Eventos</a>
+                        <a class="nav-link active  " href="proyectos.html">Galeria</a>
+                        <a class="nav-link active activo" href="contacto.html">Contacto</a>
+                        <a class="nav-link active" href="vivos.html">Vivos</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!---------------------------CONTENIDO PRINCIPAL-------------------------->
+
+<section class="d-flex justify-content-center">
+    <form class="contactoFormulario" id="contact-form">
+      <div class="formulario">
+        <input class="form-control" type="hidden" name="subject" value="Email portfolio" />
+        <!-- Input texto-->
+     
+        <input  type="text" id="full-name" name="full-name" placeholder="Nombre y Apellido" />
+
+        <!-- Input Email-->
+       
+        <input type="email" name="email" id="email" placeholder="Email" />
+
+        <!-- Textarea-->
+       
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+        <!--Boton enviar / submit-->
+        <div class="row ajusteButton">
+          <button type="submit" class="container col-md-12">
+            Enviar
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <div class="maps-1">
+        <h2 class="ubicacion">Ubicacion</h2>  
+    </div>
+
+    <div class="ubicacion1">
+    <h2 >Av. Los Quilmes 1280, B1876 Buenos Aires, Provincia de Buenos Aires</h2>
+    </div>
+<div class="maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.640758260703!2d-58.31005952480716!3d-34.714239863342584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a332759558f743%3A0xd85185cb2c4728b5!2sAv.%20Los%20Quilmes%201280%2C%20B1876%20Buenos%20Aires%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1701737315011!5m2!1ses!2sar"
+     width="600" height="350" style="border:10;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+  </section>
+
+  <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/573001112233?text=Hola!%20Estoy%20interesado%20en%20tu%20servicio'">
+
+
+
+
+    <!-------------------------FOOTER --------------------------->
+
+    <footer class="footer3">
+        <div class="Redes3">
+            <a href=""><img src="imagen/logo azul instagram.png" alt="instagram" class="redes instagram"></a>
+            <a href=""> <img src="imagen/logo azul linkedin.png" alt="linkedin" class="redes linkedin"></a>
+            <a href=""> <img src="imagen/logo azul github.png" alt="github" class="redes github"></a>
+        </div>
+
+        <div class="created">
+            <h4 class="creado">Created by Federico Garcia.</h4>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
